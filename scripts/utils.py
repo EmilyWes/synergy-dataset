@@ -28,3 +28,16 @@ def combine_datafiles(search: pd.DataFrame, ti_ab: pd.DataFrame, ft: pd.DataFram
     df.drop_duplicates(subset=ID_SET, inplace=True, ignore_index=True)
     
     return df
+    
+# Writes _ids file and raw_ids file
+def write_ids_files(key: str, df: pd.DataFrame):
+
+    df.to_csv(f"{key}_raw.csv", index=False)
+
+    IDS = ["openalex_id", "doi", "pmid", "label_included", "label_abstract_included", "method"]
+
+    for id in IDS:
+        if id not in list(df):
+            df[id] = None
+    
+    df[IDS].to_csv(f"{key}_ids.csv", index=False)
