@@ -5,6 +5,8 @@ Read on to find how you can do just that!
 We are we looking for:\
 Systematic reviews, scoping reviews or meta-analysis for which the data is or can be published online.
 
+Let us know where we can find your paper and data using [this](https://forms.gle/Heu8x5jc43Ubja6U6) form!
+
 ### But what is "data"?
 
 Below is a snapshot of the type of data we are talking about, it contains:\
@@ -27,6 +29,7 @@ Below is a snapshot of the type of data we are talking about, it contains:\
 - Some examples data repositories to get inspired by:	
 	- https://osf.io/e4pn9/
 	- https://zenodo.org/records/3625931
+ - And don't forget to fill in [this](https://forms.gle/Heu8x5jc43Ubja6U6) form, so that we can pick it up from there!
 
 ### Example data:
 ![Alt text](examples/data_example.png?raw=true "Example data")
