@@ -1,9 +1,9 @@
 ## Adding Synergy datasets
 
-Do you want to help us make SYNERGY even bigger?\n
+Do you want to help us make SYNERGY even bigger?\
 Read on to find how you can do just that!
 
-First off all, what are we looking for:\n
+First off all, what are we looking for:\
 Systematic reviews, scoping reviews or meta-analysis for which the data is or can be published online.
 
 ## But what is "data"?
