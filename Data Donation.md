@@ -25,7 +25,7 @@ With data, we refer to the meta-data of the papers that have been screened durin
 
 - Reference managers like Zotero, EndNote, and Mendeley often have nice export functions to create files that can be put in a data repository.
 - If your data has an url column, it can often contain doi's or pmid's. We will automatically get those out for you! 
-- Some examples data repositories to get inspired by:	
+- Some example data repositories to get inspired by:	
 	- https://osf.io/e4pn9/
 	- https://zenodo.org/records/3625931
  - And don't forget to fill in [this](https://forms.gle/Heu8x5jc43Ubja6U6) form, so that we can pick it up from there!
