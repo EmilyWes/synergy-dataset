@@ -1,13 +1,13 @@
-from asreview import ASReviewData
+from asreview.data import RISReader
 import sys
 
 sys.path.append("../../scripts")
 import utils
 
 # Load the RIS files into ASReviewData objects
-asr_inclusions = ASReviewData.from_file("https://osf.io/fg93a/download").df
-asr_abstract = ASReviewData.from_file("https://osf.io/s7qf6/download").df
-asr_search = ASReviewData.from_file("https://osf.io/uvr8j/download").df
+asr_inclusions = RISReader.read_data("https://osf.io/fg93a/download")
+asr_abstract = RISReader.read_data("https://osf.io/s7qf6/download")
+asr_search = RISReader.read_data("https://osf.io/uvr8j/download")
 
 # Set the labels for each dataset and merge them into a single dataframe
 df = utils.combine_datafiles(asr_search, asr_inclusions, asr_abstract)
