@@ -1434,6 +1434,18 @@ eligibility_criteria = "Studies were included in this systematic review when the
 
 [[datasets]]
 
+  key="Williamson_2023"
+
+  [datasets.publication]
+  doi="10.1007/s11160-022-09751-6"
+  eligibility_criteria="In detail, articles were excluded if, first, their titles did not contain one of the terms ‘eel’, ‘fish’, ‘movement’, ‘telemetry’, ‘environmental’ or ‘ecology’ (or correlates of these terms); second, if it was clear that eels were not the model species, that the study was not undertaken in a lentic system, and the study was not movement ecology focused, and third, if a full text could not be retrieved using either the Institute of Zoology or the University College London institution subscriptions. Finally, a full text screening of the articles was undertaken to ensure that eel species were the primary or secondary model species, the study was undertaken in a lentic system, the study was not ex situ, and the article was in English."
+
+  [datasets.data]
+  doi="10.5281/zenodo.7250310"
+
+
+[[datasets]]
+
   key="Wolters_2018"
 
   [datasets.publication]
