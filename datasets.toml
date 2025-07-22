@@ -354,6 +354,38 @@ The exclusion criteria are:
 
 
 [[datasets]]
+
+  key="Dolinska_2022"
+
+  [datasets.publication]
+  doi="10.1016/j.xfnr.2022.12.001"
+eligibility_criteria = """Inclusion criteria
+English-language articles
+Noninvasive biomarkers of any kind
+Primary research articles
+Adult females
+Human studies with more than 10 participants
+Patients with endometriosis
+Studies with a description of the methodology used for the measurement of changes in blood/urine composition
+
+Exclusion criteria
+Studies of less than 10 participants
+Studies not directly associated with blood biomarkers for endometriosis
+Studies that involved animal models/cell lines
+Pediatrics, pubescent females and males
+Unrelated gynecological diseases
+Biomarkers retrieved invasively
+Gynecological malignancies included in the control group
+Only 1 type of endometriosis considered
+Different grading system than that of the ASRM or rAFS
+Lack of laparoscopy in the control group
+Blood biomarkers only: most cases (>80%) were diagnosed with stage I-II OR stage III–IV endometriosis in accordance with the ASRM or rAFS grading system OR lack of stage specification"""
+
+  [datasets.data]
+  doi="10.1016/j.xfnr.2022.12.001"
+
+
+[[datasets]]
   # Processes 1 dataset (https://osf.io/tnxju/)
 
   key="Donners_2021"
